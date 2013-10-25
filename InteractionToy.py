@@ -7,7 +7,6 @@ window = pyglet.window.Window(800,600)
 keyboard = key.KeyStateHandler()
 window.push_handlers(keyboard)
 
-#Sounds accredited to http://soundbible.com/
 jumpSound = pyglet.resource.media('jump.wav', streaming = False)
 jumpSound.play()
 pyglet.resource.media('bgmus.wav', streaming = False).play()
